@@ -1,12 +1,30 @@
 {
   "items": [
     {
+      "id": "PF-1791105113719-jkohc",
+      "code": "PF-900",
+      "source": "旧档补录",
+      "vat": "一号缸",
+      "days": 0,
+      "owner": "",
+      "status": "入缸",
+      "enteredAt": "2026-10-04",
+      "version": 1,
+      "logs": [
+        {
+          "at": "2026-10-04T09:11:53.719Z",
+          "step": "建档",
+          "note": "创建纸浆批次，入一号缸"
+        }
+      ]
+    },
+    {
       "code": "PF-001",
       "source": "构树皮",
       "vat": "三号缸",
-      "days": 6,
+      "days": 8,
       "owner": "林素",
-      "status": "发酵中",
+      "status": "可抄纸",
       "logs": [
         {
           "at": "2026-06-15",
@@ -18,6 +36,11 @@
           "at": "2026-06-21T03:50:29.658Z",
           "step": "观察",
           "note": "温度25.1，微酸，松散"
+        },
+        {
+          "at": "2026-10-04T09:11:21.972Z",
+          "step": "观察",
+          "note": "温度25.3，微酸，松散，已换水"
         }
       ],
       "observations": [
@@ -27,9 +50,126 @@
           "smell": "微酸",
           "fiber": "松散",
           "changedWater": "是",
+          "abnormal": false,
+          "ticket": "XC-20260621-001"
+        },
+        {
+          "ticket": "XC-300",
+          "at": "2026-10-04T09:11:21.972Z",
+          "date": "2026-06-22",
+          "source": "白班",
+          "temperature": "25.3",
+          "smell": "微酸",
+          "fiber": "松散",
+          "changedWater": true,
           "abnormal": false
+        }
+      ],
+      "id": "PF-001",
+      "version": 2,
+      "enteredAt": "2026-06-15"
+    }
+  ],
+  "version": 3,
+  "vats": [
+    {
+      "id": "vat-1",
+      "name": "一号缸",
+      "status": "占用",
+      "batchId": "PF-1791105113719-jkohc"
+    },
+    {
+      "id": "vat-2",
+      "name": "二号缸",
+      "status": "空闲",
+      "batchId": null
+    },
+    {
+      "id": "vat-3",
+      "name": "三号缸",
+      "status": "占用",
+      "batchId": "PF-001"
+    },
+    {
+      "id": "vat-4",
+      "name": "四号缸",
+      "status": "空闲",
+      "batchId": null
+    }
+  ],
+  "tickets": {
+    "XC-20260621-001": "PF-001",
+    "XC-300": "PF-001"
+  },
+  "idem": {
+    "XC-300": {
+      "code": "PF-001",
+      "source": "构树皮",
+      "vat": "三号缸",
+      "days": 8,
+      "owner": "林素",
+      "status": "可抄纸",
+      "logs": [
+        {
+          "at": "2026-06-15",
+          "step": "观察",
+          "note": "温度24.6，气味微酸，纤维开始松散",
+          "abnormal": false
+        },
+        {
+          "at": "2026-06-21T03:50:29.658Z",
+          "step": "观察",
+          "note": "温度25.1，微酸，松散"
+        },
+        {
+          "at": "2026-10-04T09:11:21.972Z",
+          "step": "观察",
+          "note": "温度25.3，微酸，松散，已换水"
+        }
+      ],
+      "observations": [
+        {
+          "at": "2026-06-21T03:50:29.658Z",
+          "temperature": "25.1",
+          "smell": "微酸",
+          "fiber": "松散",
+          "changedWater": "是",
+          "abnormal": false,
+          "ticket": "XC-20260621-001"
+        },
+        {
+          "ticket": "XC-300",
+          "at": "2026-10-04T09:11:21.972Z",
+          "date": "2026-06-22",
+          "source": "白班",
+          "temperature": "25.3",
+          "smell": "微酸",
+          "fiber": "松散",
+          "changedWater": true,
+          "abnormal": false
+        }
+      ],
+      "id": "PF-001",
+      "version": 2,
+      "enteredAt": "2026-06-15"
+    },
+    "final-check-1": {
+      "id": "PF-1791105113719-jkohc",
+      "code": "PF-900",
+      "source": "",
+      "vat": "一号缸",
+      "days": 0,
+      "owner": "",
+      "status": "入缸",
+      "enteredAt": "2026-10-04",
+      "version": 1,
+      "logs": [
+        {
+          "at": "2026-10-04T09:11:53.719Z",
+          "step": "建档",
+          "note": "创建纸浆批次，入一号缸"
         }
       ]
     }
-  ]
+  }
 }
