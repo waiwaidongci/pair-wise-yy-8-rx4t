@@ -4,7 +4,7 @@
       "code": "PF-001",
       "source": "构树皮",
       "vat": "三号缸",
-      "days": 6,
+      "days": 1,
       "owner": "林素",
       "status": "发酵中",
       "logs": [
@@ -12,12 +12,14 @@
           "at": "2026-06-15",
           "step": "观察",
           "note": "温度24.6，气味微酸，纤维开始松散",
-          "abnormal": false
+          "abnormal": false,
+          "source": "旧数据补齐"
         },
         {
           "at": "2026-06-21T03:50:29.658Z",
           "step": "观察",
-          "note": "温度25.1，微酸，松散"
+          "note": "温度25.1，微酸，松散",
+          "source": "旧数据补齐"
         }
       ],
       "observations": [
@@ -26,10 +28,23 @@
           "temperature": "25.1",
           "smell": "微酸",
           "fiber": "松散",
-          "changedWater": "是",
-          "abnormal": false
+          "changedWater": true,
+          "abnormal": false,
+          "slipNo": "LEGACY-PF-001-001",
+          "date": "2026-06-21",
+          "source": "旧数据补齐",
+          "waterConfirmed": false,
+          "recordedAt": "2026-06-21T03:50:29.658Z"
         }
-      ]
+      ],
+      "id": "PF-001",
+      "version": 1,
+      "vatReleasedAt": null,
+      "entryDate": "2026-06-15",
+      "abnormalCount": 0,
+      "pendingWater": true,
+      "schema": 2
     }
-  ]
+  ],
+  "version": 2
 }
